@@ -6,9 +6,25 @@
     <title>Ninja</title>
   </head>
   <body>
-
     <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
-    <include src="./partials/example.html"></include>
+
+    <include src="./partials/page-header.html"></include>
+
+    <main>
+      <include src="./partials/section-hero.html"></include>
+      <include src="./partials/section-advantages.html"></include>
+      <include src="./partials/section-problems.html"></include>
+      <include src="./partials/section-how-we-do.html"></include>
+      <include src="./partials/section-program.html"></include>
+      <include src="./partials/section-benefits.html"></include>
+      <include src="./partials/section-about.html"></include>
+      <include src="./partials/section-guarantee.html"></include>
+      <include src="./partials/section-reviews.html"></include>
+      <include src="./partials/section-contacts.html"></include>
+    </main>
+
+    <include src="./partials/page-footer.html"></include>
+    <include src="./partials/mobile-menu.html"></include>
 
     <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
     <script src="./index.js"></script>

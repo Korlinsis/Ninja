@@ -3,5 +3,22 @@
  * Все паршалы подключаются сюда.
  */
 
-// Стили для файла с примером HTML-фрагмента
-@import './example';
+@import './base/modern-normalize';
+@import './base/base';
+@import './base/visually-hidden';
+@import './utils/variables';
+@import './components/page-header';
+@import './components/section';
+@import './components/container';
+@import './components/section-hero';
+@import './components/section-advantages';
+@import './components/section-problems';
+@import './components/section-how-we-do';
+@import './components/section-program';
+@import './components/section-benefits';
+@import './components/section-about';
+@import './components/section-guarantee';
+@import './components/section-reviews';
+@import './components/section-contacts';
+@import './components/page-footer';
+@import './components/mobile-menu';
