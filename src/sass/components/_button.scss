@@ -10,6 +10,7 @@
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: #FFFFFF;
+  padding: 14px 0 14px 1px;
 
   @media screen and (min-width: 480px){
     width: 260px;
@@ -24,6 +25,7 @@
   @media screen and (min-width: 1280px){
     width: 354px;
     height: 70px;
+    padding: 27px 25px 26px 26px;
   }
 }
 
@@ -32,7 +34,12 @@
   border: 2px solid #FF6B09;
   color: #FF6B09;
 
+  @media screen and (min-width: 768px){
+    padding: 16px 5px 17px;
+  }
+
   @media screen and (min-width: 1280px){
+    padding: 27px 23px 26px 24px;
     width: 336px;
     font-size: 14px;
     line-height: 17px;
