@@ -25,20 +25,20 @@
     display: flex;
   }
   .logo-hell {
-    font-family: "Raleway";
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 700;
-    color: var(--blue-text);
+    color: var(--black-text);
     font-size: 26px;
     letter-spacing: 0.03;
     line-height: 1.15;
   }
   .logo-en {
     padding-right: 43px;
-    font-family: "Raleway";
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 700;
-    color: var(--black-dark-text);
+    color: var(--black-text);
     font-size: 26px;
     letter-spacing: 0.03;
     line-height: 1.15;
@@ -47,12 +47,52 @@
   .nav-logo {
     margin-left: 50px; 
     padding: 32px 0;  
-    font-family: "roboto";
+    font-family: "Montserrat";
     font-size: 14px;
     font-weight: 500;
     color: var(--black-text);
     letter-spacing: 0.02em;
   }
   
-  
+  .button{
+    background-color: var(--white-bac);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: --orange-bac;
+    padding: 14px 0 14px 1px;
+  }
     
+  .adskij{
+      font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #FF6B09;
+    padding: 14px 0 14px 1px;
+    }
+    
+  .english{
+    font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--black-text) ;
+  padding: 14px 0 14px 1px;
+  }
