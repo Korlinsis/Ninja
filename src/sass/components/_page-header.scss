@@ -12,15 +12,40 @@
     max-width: 1200px;
 
   }
+
+  .nav-logo {
+    margin-left: 40px; 
+    padding: 32px 0;  
+    font-family: "Montserrat";
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--light-gray-text);
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+  }
+
+
+  .nav-logo:hover {
+    color: var(--accent-color);
+    letter-spacing: 0.06em;
+  }
+
   .nav-link {
     display: flex;
     align-items: center;
   }
+
+ 
   .ul-link {
     justify-content: space-around;
     align-items: center;
     display: flex;
   }
+
+ 
+
+
   .logo-hell {
     font-family: "Montserrat";
     font-style: normal;
@@ -41,16 +66,36 @@
     line-height: 1.15;
   }
 
-  .nav-logo {
-    margin-left: 50px; 
-    padding: 32px 0;  
-    font-family: "Montserrat";
-    font-size: 14px;
-    font-weight: 500;
-    color: var(--black-text);
-    letter-spacing: 0.02em;
+ 
+  
+  .adskij{
+    font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #FF6B09;
+  padding: 14px 0 14px 1px;
   }
   
+.english{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+align-items: center;
+text-align: center;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+color: var(--black-text) ;
+padding: 14px 0 14px 1px;
+}
+
   .button{
     background-color:white;
   font-family: Montserrat;
@@ -102,34 +147,15 @@
       letter-spacing: 0.14em;
     }
   }
-    
-  .adskij{
-      font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 15px;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: #FF6B09;
-    padding: 14px 0 14px 1px;
-    }
-    
-  .english{
-    font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 12px;
-  line-height: 15px;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--black-text) ;
-  padding: 14px 0 14px 1px;
+
+  .button:hover {
+    color: var(--accent-color);
+    letter-spacing: 0.06em;
+    background-color: var(--white-text);
+    border: var(--accent-color) solid;
   }
-  .svg-logo{
-    color: var(--black-text) ;
-  }
+ 
+  
+    
+  
+  
