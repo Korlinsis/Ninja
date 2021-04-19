@@ -10,81 +10,94 @@
     text-align: center;
    
     max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+
   }
+
+  .nav-logo {
+    margin-left: 40px; 
+    padding: 32px 0;  
+    font-family: "Montserrat";
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--light-gray-text);
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+  }
+
+
+  .nav-logo:hover {
+    color: var(--accent-color);
+    letter-spacing: 0.06em;
+  }
+
   .nav-link {
     display: flex;
     align-items: center;
   }
+
+ 
   .ul-link {
     justify-content: space-around;
     align-items: center;
     display: flex;
   }
+
+ 
+
+
   .logo-hell {
     font-family: "Montserrat";
     font-style: normal;
-    font-weight: 700;
+    font-weight: 800;
     color: var(--black-text);
     font-size: 26px;
     letter-spacing: 0.03;
     line-height: 1.15;
   }
   .logo-en {
-    padding-right: 43px;
+    
     font-family: "Montserrat";
     font-style: normal;
-    font-weight: 700;
+    font-weight: 800;
     color: var(--black-text);
     font-size: 26px;
     letter-spacing: 0.03;
     line-height: 1.15;
   }
 
-  .nav-logo {
-    margin-left: 50px; 
-    padding: 32px 0;  
-    font-family: "Montserrat";
-    font-size: 14px;
-    font-weight: 500;
-    color: var(--black-text);
-    letter-spacing: 0.02em;
+ 
+  
+  .adskij{
+    font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 8px;
+  line-height: 10px;
+  align-items: center;
+  text-align: left;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #FF6B09;
   }
   
+.english{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 700;
+font-size: 8px;
+line-height: 10px;
+align-items: center;
+text-align: left;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+color: var(--black-text) ;
+
+}
+
   .button{
-    background-color: var(--white-bac);
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 15px;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: --orange-bac;
-    padding: 14px 0 14px 1px;
-  }
-    
-  .adskij{
-      font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 15px;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: #FF6B09;
-    padding: 14px 0 14px 1px;
-    }
-    
-  .english{
-    font-family: Montserrat;
+    background-color:white;
+  font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
@@ -93,6 +106,69 @@
   text-align: center;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--black-text) ;
+  color:black ;
   padding: 14px 0 14px 1px;
+  margin: 20px;
+  
+   
+  
+    @media screen and (min-width: 480px){
+      width: 260px;
+      height: 48px;
+    }
+      
+    @media screen and (min-width: 768px){
+      width: 260px;
+      height: 48px;
+    }
+  
+    @media screen and (min-width: 1280px){
+      width: 354px;
+      height: 70px;
+      padding: 27px 25px 26px 26px;
+    }
   }
+  
+  .button--inversion{
+    background-color: black;
+    border: 2px solid black;
+    color: black;
+  
+    @media screen and (min-width: 768px){
+      padding: 16px 5px 17px;
+    }
+  
+    @media screen and (min-width: 1280px){
+      padding: 27px 23px 26px 24px;
+      width: 336px;
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: 0.14em;
+    }
+  }
+
+  .button-nav:hover {
+    color: var(--accent-color);
+    letter-spacing: 0.06em;
+    background-color: var(--white-text);
+    border: var(--accent-color) solid;
+  }
+ 
+  .button-nav {
+    background-color:white;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color:black ;
+  padding: 14px 0 14px 1px;
+  margin: 20px;
+  
+  }
+  
+  
