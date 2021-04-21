@@ -28,7 +28,6 @@
 
   .nav-logo:hover {
     color: var(--accent-color);
-    letter-spacing: 0.06em;
   }
 
   .nav-link {
@@ -96,7 +95,7 @@ color: var(--black-text) ;
 }
 
   .button{
-    background-color:white;
+    background-color:#FFFFFF;
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
@@ -106,7 +105,7 @@ color: var(--black-text) ;
   text-align: center;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color:black ;
+  color:#111518 ;
   padding: 14px 0 14px 1px;
   margin: 20px;
   
@@ -148,14 +147,13 @@ color: var(--black-text) ;
   }
 
   .button-nav:hover {
-    color: var(--accent-color);
-    letter-spacing: 0.06em;
+    color: #FF6B09;
     background-color: var(--white-text);
-    border: var(--accent-color) solid;
+    border: #FF6B09 solid;
   }
  
   .button-nav {
-    background-color:white;
+    background-color: #FFFFFF;
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
@@ -165,7 +163,7 @@ color: var(--black-text) ;
   text-align: center;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color:black ;
+  color:#111518 ;
   padding: 14px 0 14px 1px;
   margin: 20px;
   
